@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư Thời</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Phần tiêu đề -->
+    <h1>Hòm Thư Góp Ý</h1>
+    <p class="description">Chúng tôi luôn lắng nghe ý kiến của bạn!</p>
+
+    <!-- Bức thư mẫu -->
+    <div class="sample-letter">
+      <h2>Thư Mẫu</h2>
+      <p>
+        Kính gửi đội ngũ phát triển,<br>
+        Tôi rất thích tính năng mới, nhưng tôi muốn đề xuất thêm một số cải tiến
+        để ứng dụng trở nên thân thiện hơn.<br>
+        Trân trọng,<br>
+        Nguyễn Văn A
+      </p>
+    </div>
+
+    <!-- Form để người dùng gửi thư -->
+    <form id="mail">
+      <label for="name">Tên của bạn:</label>
+      <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+
+      <label for="content">Nội dung thư:</label>
+      <textarea id="content" name="content" rows="15" placeholder="Nhập nội dung góp ý" required></textarea>
+
+      <button type="submit">Gửi Góp Ý</button>
+    </form>
+    <script src="/static/js/index.js"></script>
+  </div>
+</body>
+</html>
