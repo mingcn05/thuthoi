@@ -1,6 +1,6 @@
 /* Tổng thể */
 body {
-  background-image: url('/static/images/index.jpg'); /* Hình nền */
+  background-image: url('../images/index.jpg'); /* Hình nền */
   background-size: cover; /* Ảnh nền phủ toàn bộ */
   background-repeat: no-repeat;
   background-position: center;
